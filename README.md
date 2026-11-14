@@ -2,6 +2,8 @@
 
 Server-side leaderboard holograms for Minecraft, built from vanilla display entities. Players see floating top-player boards with a vanilla client; only the server installs the mod.
 
+Download: [Modrinth](https://modrinth.com/mod/leaderboard-hologram) or [CurseForge](https://www.curseforge.com/minecraft/mc-mods/leaderboard-hologram).
+
 The mod tracks 44 statistic presets (play time, deaths, kills, mining, gathering, crafting, trades, movement and more), supports aggregate statistics, four themes, persistent named boards and a five-minute refresh.
 
 ![Playtime board on a real NeoForge 26.3 server](showcase/live-26.3-board.png)
