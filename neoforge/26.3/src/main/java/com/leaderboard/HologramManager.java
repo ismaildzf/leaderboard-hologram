@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 import net.minecraft.ChatFormatting;
+import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.MutableComponent;
 import net.minecraft.server.level.ServerLevel;
@@ -227,7 +228,11 @@ public class HologramManager {
    }
 
    private TextDisplay createDisplay(ServerLevel world, Vec3 pos) {
-      TextDisplay display = new TextDisplay(EntityType.TEXT_DISPLAY, world);
+      EntityType<?> displayType = BuiltInRegistries.ENTITY_TYPE.getValue(net.minecraft.resources.Identifier.withDefaultNamespace("text_display"));
+      if (displayType == null) {
+         throw new IllegalStateException("Missing minecraft:text_display entity type");
+      }
+      TextDisplay display = new TextDisplay(displayType, world);
       CompatibilityBridge.moveEntity(display, pos);
       display.setInvulnerable(true);
       display.setNoGravity(true);
