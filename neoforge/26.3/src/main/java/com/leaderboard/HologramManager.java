@@ -234,7 +234,7 @@ public class HologramManager {
       }
       TextDisplay display = new TextDisplay(displayType, world);
       CompatibilityBridge.moveEntity(display, pos);
-      display.setInvulnerable(true);
+      display.setPermanentlyInvulnerable(true);
       display.setNoGravity(true);
       CompatibilityBridge.applyTextDisplayStyle(display, Component.literal("Loading leaderboard..."), 200, 0, (byte)-1, true, false, false, "center");
       return display;
