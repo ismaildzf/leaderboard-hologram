@@ -19,15 +19,15 @@ Published Fabric jars also cover 1.21.2–1.21.10 and 26.1/26.1.1. Those targets
 
 ### NeoForge
 
-| Minecraft | NeoForge | Source |
-| --- | --- | --- |
-| 1.20.1 | 47.1.106 | `neoforge/1.20.1/` |
-| 1.21.1 | 21.1.60 | `neoforge/1.21.1/` |
-| 1.21.10 | 21.10.64 | `neoforge/1.21.10/` |
-| 1.21.11 | 21.11.42 | `neoforge/1.21.11/` |
-| 26.1.2 | 26.1.2.126 | `neoforge/26.1.2/` |
-| 26.2 | 26.2.0.93 | `neoforge/26.2/` |
-| 26.3 | 26.3.0.102 | `neoforge/26.3/` |
+| Minecraft | NeoForge | Source | Dedicated-server test |
+| --- | --- | --- | --- |
+| 1.20.1 | 47.1.106 | `neoforge/1.20.1/` | tested |
+| 1.21.1 | 21.1.60 | `neoforge/1.21.1/` | tested |
+| 1.21.10 | 21.10.64 | `neoforge/1.21.10/` | tested |
+| 1.21.11 | 21.11.42 | `neoforge/1.21.11/` | tested |
+| 26.1.2 | 26.1.2.126 | `neoforge/26.1.2/` | tested |
+| 26.2 | 26.2.0.93 | `neoforge/26.2/` | tested |
+| 26.3 | 26.3.0.102 | `neoforge/26.3/` | tested |
 
 NeoForge 26.1.0 and 26.1.1 only have beta loader builds upstream; the stable 26.1 target is 26.1.2.
 
