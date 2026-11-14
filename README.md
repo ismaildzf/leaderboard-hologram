@@ -4,6 +4,18 @@ Server-side leaderboard holograms for Minecraft, built from vanilla display enti
 
 The mod tracks 44 statistic presets (play time, deaths, kills, mining, gathering, crafting, trades, movement and more), supports aggregate statistics, four themes, persistent named boards and a five-minute refresh.
 
+![Playtime board on a real NeoForge 26.3 server](showcase/live-26.3-board.png)
+
+## Quick start
+
+Put the jar in your server `mods` folder, start the server, then run:
+
+```mcfunction
+/leaderboard create quick play_time
+```
+
+That gives you a board with the top 10 players. Use `/leaderboard settheme <name> gold` to change the look, or `/leaderboard presets` to see the other stats.
+
 ## Supported targets
 
 ### Fabric
