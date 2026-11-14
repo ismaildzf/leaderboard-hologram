@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="leaderboard"
+version="1.3.1+mc1.20.1-neoforge"
+displayName="Leaderboard Hologram"
+authors="Kador"
+description='''
+Floating Text Display leaderboard holograms driven by Minecraft player statistics.
+'''
+
+[[dependencies.leaderboard]]
+modId="forge"
+mandatory=true
+versionRange="[47.1,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.leaderboard]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.20.2)"
+ordering="NONE"
+side="BOTH"

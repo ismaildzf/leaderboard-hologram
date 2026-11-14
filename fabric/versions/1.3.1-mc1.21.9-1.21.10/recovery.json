@@ -1,0 +1,12 @@
+{
+  "release": "1.3.1",
+  "game_build_target": "1.21.9",
+  "source_key": "1.3.1-mc1.21.9-1.21.10",
+  "template": "https://fabricmc.net/scripts/Template-TIgUNdH-.js",
+  "template_adaptations": [
+    "Pinned Loom 1.19.4 instead of template snapshot",
+    "Preserve original mod resources and metadata, no example content",
+    "Historical 1.20.1 jar requires Java 21, not vanilla Java 17"
+  ],
+  "verification_status": "server-qa-verified"
+}

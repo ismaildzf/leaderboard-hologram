@@ -1,0 +1,14 @@
+.gradle/
+build/
+run/
+runtest/
+tools/
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+.DS_Store
+
+*.log
+api*.txt

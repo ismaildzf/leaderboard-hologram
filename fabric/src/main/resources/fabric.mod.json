@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "leaderboard",
+  "version": "${version}",
+  "name": "Leaderboard Hologram",
+  "description": "Server-side holographic leaderboards with friendly presets, live refresh, aggregate stats, and cleaner network-style holograms",
+  "authors": [
+    "Developer"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.leaderboard.LeaderboardMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "fabric-api": "*",
+    "minecraft": "1.21.11",
+    "java": ">=21"
+  }
+}

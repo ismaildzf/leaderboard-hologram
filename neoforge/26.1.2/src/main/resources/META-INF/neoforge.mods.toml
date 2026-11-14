@@ -1,0 +1,24 @@
+modLoader = "javafml"
+loaderVersion = "[1,)"
+license = "MIT"
+
+[[mods]]
+modId = "leaderboard"
+version = "1.3.1+mc26.1.2-neoforge"
+displayName = "Leaderboard Hologram"
+authors = "Kador"
+description = '''Server-side holographic leaderboards with friendly presets, live refresh, aggregate stats, and cleaner network-style holograms'''
+
+[[dependencies.leaderboard]]
+modId = "neoforge"
+type = "required"
+versionRange = "[26.1.0,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.leaderboard]]
+modId = "minecraft"
+type = "required"
+versionRange = "[26.1.2]"
+ordering = "NONE"
+side = "BOTH"
